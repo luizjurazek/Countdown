@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown em JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Black Friday</h1>
+    <div class="countdown-container">
+        <div class="countdown-el days-c">
+            <p class="text" id="days">0</p>
+            <span>Dias</span>
+        </div>
+        <div class="countdown-el hours-c">
+            <p class="text" id="hours">0</p>
+            <span>Horas</span>
+        </div>
+        <div class="countdown-el mins-c">
+            <p class="text" id="mins">0</p>
+            <span>Minutos</span>
+        </div>
+        <div class="countdown-el seconds-c">
+            <p class="text" id="seconds">0</p>
+            <span>Segundos</span>
+        </div>
+    </div>
+
+    <style>
+        .countdown-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            max-width: 368px;
+        }
+
+        .countdown-el {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    </style>
+
+
+
+
+
+<script src="script.js" defer></script>
+</body>
+</html>
